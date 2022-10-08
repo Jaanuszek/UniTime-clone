@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Arial Unicode MS, Arial, sans-serif;;
+    font-size:small;
+    font-weight:700;
+    line-height:1.6em;
+}
+
+#navbar{
+    background-color:#f8f4fc; 
+    border-style:none none solid none;
+    border-color:#bbbbbb;
+    border-width:1px;
+}
+
+#navbar table{
+    padding:0;
+    empty-cells:show;
+}
+#navbar a{
+    color:#666666;
+    text-decoration:none;
+    padding:0px 10px;
+    font-size:17px;
+    font-weight:bold;
+}
+
+#navbar a:hover{
+    background-color:#e0edfe;
+}
+
+.chuj{
+    min-width: 50px;
+}
+
+
+
+
+
+
+
+
+
