@@ -28,24 +28,31 @@ body{
     background-color:#e0edfe;
 }
 
+.container{
+
+}
+
 .box1{
     float:left;
+    position:absolute;
+    left:35%;
     margin-top:25px;
-    width:33,3%;
-    box-sizing:border-box;
+    width:30%;
 }
 
 .box2{
     float:left;
-    width:77,7%;
-    box-sizing:border-box;
-}
+    position:absolute;
+    left:40%;
+    width:60%;
+} /*floaty trzeba wyczyscic */
 
 .box2 h1{
-    margin-left:25px;
     font-size:30px;
     font-weight:300;
     margin-bottom: 10px;
+    margin-left:25px;
+    margin-top:30px;
 }
 
 .box2 p{
