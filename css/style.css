@@ -29,13 +29,14 @@ body{
 }
 
 .container{
-
+    margin:auto;
+    display:flex;
+    justify-content:flex-start;
 }
 
 .box1{
     float:left;
-    position:absolute;
-    left:35%;
+    margin-left:35%;
     margin-top:25px;
     width:30%;
 }
@@ -43,9 +44,9 @@ body{
 .box2{
     float:left;
     position:absolute;
-    left:40%;
+    margin-left:40%;
     width:60%;
-} /*floaty trzeba wyczyscic */
+} /*trzeba zrobic tak zeby to nie bylo przezroczyste tak jakby, i zeby sie skalowalo jak sie strona zmniejsza, zmienic na flexboxy */
 
 .box2 h1{
     font-size:30px;
@@ -59,6 +60,16 @@ body{
     font-size:20px;
     font-weight: 300;
 }
+
+.clr{
+    clear:both;
+}
+
+.my-form{
+    background-color:red;
+    position:absolute;
+    margin:25%;
+} /* a tu to kurwa zrobic cos XD */
 
 
 
