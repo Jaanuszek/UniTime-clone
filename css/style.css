@@ -39,43 +39,52 @@ body{
 
 .container div{
     border:1px #ccc solid;
+    display:flex;
 }
 
 .box1{
     flex:2;
+    justify-content: flex-end;
 }
 
 .box1 img{
-
+    margin-top:20px;
 }
 
 .box2{
     flex:3;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self:center;
 } /*trzeba zrobic tak zeby to nie bylo przezroczyste tak jakby, i zeby sie skalowalo jak sie strona zmniejsza, zmienic na flexboxy */
 
 .box2 h1{
     font-size:32px;
     font-weight:300;
-        margin-bottom: 10px;
-        margin-left:25px;
-        margin-top:30px;
 }
 
 .box2 p{
     font-size:20px;
     font-weight: 300;
 }
-
+/*
 .clr{
     clear:both;
 }
-
+*/
 .my-form{
+    text-align: center;
     background-color:red;
-    position:absolute;
-    margin:25%;
+    margin-left:750px;
+    margin-right:750px;
+    padding:25px;
+    border: solid #ccc;
+    border-radius: 10px;
 } /* a tu to kurwa zrobic cos XD */
 
+.form-group{
+    padding:25px;
+}
 
 
 
